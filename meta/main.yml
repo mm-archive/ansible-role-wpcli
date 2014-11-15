@@ -1,0 +1,17 @@
+---
+# file: wpcli/meta/main.yml
+
+galaxy_info:
+  author: Matthew Miller
+  description: A role to install/configure the WP-CLI
+  company: 
+  license: license (MIT)
+  min_ansible_version: 1.6
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+  categories:
+    - web
+dependencies: 
+  - { role: MatthewMi11er.php }
