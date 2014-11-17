@@ -14,4 +14,4 @@ galaxy_info:
   categories:
     - web
 dependencies: 
-  - { role: MatthewMi11er.php }
+  - MatthewMi11er.php
