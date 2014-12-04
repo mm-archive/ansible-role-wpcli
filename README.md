@@ -10,15 +10,15 @@ A role to install/configure the WP-CLI
 
 
 ## Dependencies
+There are no Ansible role dependencies but to run the app PHP must be installed.
 
-MatthewMiller.php
 
 ## Example Playbook
 
 
     - hosts: servers
       roles:
-         - { role: MatthewMiller.wpcli }
+         - MatthewMiller.wpcli
 
 ## License
 
