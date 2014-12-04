@@ -6,4 +6,6 @@
     dest: '/usr/bin/wp'
     mode: 0755
     force: yes
+  tags:
+    - wpcli
   
