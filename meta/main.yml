@@ -6,12 +6,11 @@ galaxy_info:
   description: A role to install/configure the WP-CLI
   company: 
   license: license (MIT)
-  min_ansible_version: 1.6
+  min_ansible_version: 1.7.2
   platforms:
     - name: Ubuntu
       versions:
         - trusty
   categories:
     - web
-dependencies: 
-  - MatthewMi11er.php
+dependencies: []
